@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <center>
+    <div class ="main">
+        
+        <h1 class="head">Details</h1>
+        <form class="fr">
+            <table>
+                <tr>
+                    <td>
+                        <label for="name">Name :</label>
+                    </td>
+                    <td>
+                        <input type="text" id="name" placeholder="Enter Your Name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Department">Department :</label>
+                    </td>
+                    <td>
+                        <select id="Department">
+                            <option>CSE</option>
+                            <option>ECE</option>
+                            <option>EEE</option>
+                            <option>AIML</option>
+                            <option>CYBER</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="sp">Preferred Sport :</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="sp">Cricket
+                        <input type="radio" name="sp">Volley Ball
+                        <input type="radio" name="sp">Kho Kho
+                        <input type="radio" name="sp">Hockey
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Lang">Languages Known :</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" id="Lang">English
+                        <input type="checkbox" id="Lang">Tamil
+                        <input type="checkbox" id="Lang">Hindi
+                        <input type="checkbox" id="Lang">Japanese
+                        <input type="checkbox" id="Lang">Korean
+                        <input type="checkbox" id="Lang">French
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="submit" onclick="alert('submitted successfully')">Submit</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</center>
+</body>
+
+</html>

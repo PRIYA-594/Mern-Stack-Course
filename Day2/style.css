@@ -1,0 +1,16 @@
+.main
+{
+    padding: 20px;
+    border: 2px solid green;
+    width: 700px;
+    background-color: aquamarine;
+    color:blueviolet
+}
+.head
+{
+    color:brown
+}
+.fr
+{
+    word-spacing: 2px;
+}
