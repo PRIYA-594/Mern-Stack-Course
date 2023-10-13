@@ -1,0 +1,66 @@
+body
+{
+    background-color: rgb(192, 234, 234);
+}
+.main
+{
+    border: 2px solid rgb(29, 92, 145);
+    width:1100px;
+    height: 1130px;
+}
+.head
+{
+    background-color: azure;
+    text-align: center;
+    padding:25px;
+    
+}
+h1
+{
+    color:rgb(29, 92, 145);
+}
+.side
+{
+    width:350px;
+    background-color: rgb(128, 201, 225);
+    color:rgb(29, 92, 145);
+    float:right;
+    padding:40px;
+    height: 880px;
+
+}
+table
+{
+    padding:5px;
+}
+.head2
+{
+    color:rgb(7, 104, 122);
+}
+li{
+    padding: 5px;
+}
+
+a{
+    color:rgb(29, 92, 145);
+}
+.side2
+{
+    background-color: whitesmoke;
+    padding:20px;
+    padding-left: 30px;
+
+    height: 920px;
+}
+p{
+    text-align: justify;
+    width: 800px;
+}
+.head3
+{
+    color: rgb(128, 201, 225);
+}
+h3
+{
+    color:rgb(29, 92, 145);
+}
