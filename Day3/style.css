@@ -1,0 +1,67 @@
+body {
+    background-color: lightgray;
+    font-size: 50px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 20px;
+    color: brown;
+    font-family: Lucida Handwriting;
+
+}
+
+div {
+    background-color: lime;
+    right: 50px;
+    bottom: 100px;
+    position: absolute;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 50px;
+    color: rgb(133, 133, 133);
+}
+
+.title {
+    margin-bottom: 10px;
+    text-align: center;
+    width: 210px;
+    color: green;
+    border: solid black 2px;
+}
+
+input[type="button"] {
+    font-size: 48px;
+    color: white;
+    width: 100%;
+
+}
+
+input[type="text"] {
+    font-size: 50px;
+    background-color: rgb(248, 246, 246);
+    width: 100%
+}
+
+button {
+    text-decoration: none;
+    background-color: rgb(151, 151, 151);
+}
+
+.b0 {
+    background-color: lightgray;
+}
+
+.b1 {
+    background-color: darkgrey;
+}
+
+.b2 {
+    background-color: gray;
+}
+
+.b3 {
+    background-color: rgb(28, 87, 212);
+}
