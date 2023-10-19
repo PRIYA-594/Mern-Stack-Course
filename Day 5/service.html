@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SERVICE</title>
+    <style>
+        .main {
+            padding: 20px;
+            border: 2px solid rgb(128, 70, 0);
+            width: 700px;
+            background-color: rgb(173, 23, 23);
+            color: rgb(166, 192, 60)
+        }
+
+        .head {
+            color: rgb(18, 63, 152)
+        }
+
+        .fr {
+            word-spacing: 2px;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <div class="main">
+
+            <h1 class="head">FILL THE FORM TO GET THE SERVICE</h1>
+            <form class="fr">
+                <table>
+                    <tr>
+                        <td>
+                            <label for="name">Name :</label>
+                        </td>
+                        <td>
+                            <input type="text" id="name" placeholder="Enter Your Name">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="Department">Department :</label>
+                        </td>
+                        <td>
+                            <select id="Department">
+                                <option>CSE</option>
+                                <option>ECE</option>
+                                <option>EEE</option>
+                                <option>AIML</option>
+                                <option>CYBER</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="sp">Preferred Sport :</label>
+                        </td>
+                        <td>
+                            <br />
+                            <input type="radio" name="sp">Cricket<br />
+                            <input type="radio" name="sp">Volley Ball<br />
+                            <input type="radio" name="sp">Kho Kho<br />
+                            <input type="radio" name="sp">Hockey<br />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="Lang">Languages Known :</label>
+                        </td>
+                        <td>
+                            <br />
+                            <input type="checkbox" id="Lang">English<br />
+                            <input type="checkbox" id="Lang">Tamil<br />
+                            <input type="checkbox" id="Lang">Hindi<br />
+                            <input type="checkbox" id="Lang">Japanese<br />
+                            <input type="checkbox" id="Lang">Korean<br />
+                            <input type="checkbox" id="Lang">French<br />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button type="submit" onclick="alert('submitted successfully')">Submit</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </center>
+</body>
+
+</html>
